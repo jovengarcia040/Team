@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body {
+	font-family: 'Roboto', sans-serif !important;
+}
+.out_team {
+	padding: 100px 0;
+}
+.team_header h4 {
+	color: #404040;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 16px; /* 133.333% */
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+.team_header h2 {
+	color: #B18463;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 52px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.team_header p {
+	color: #404040;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 16px; /* 133.333% */
+	letter-spacing: 0.5px;
+}
+.divider {
+	margin-top: 15px;
+	display: block;
+}
+.team_img img {
+	width: 100%;
+}
+.team_boxes {
+	padding-top: 30px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.team_box {
+	position: relative;
+}
+.team_content {
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+}
+.team_box {
+	margin-bottom: 30px;
+}
+.team_member_name {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+.team_member_profession {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px; /* 116.667% */
+}
+.btn.default_btn {
+	padding: 4px 12px;
+	border-radius: 100px;
+	border: 1px solid #B18463;
+	color: #B18463;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	display: block;
+	margin-top: 10px;
+}
+.team_box:hover .team_img img {
+    transform: scale(1.1);
+}
+.team_box .team_img img {
+   transition:ease all 0.5s; 
+}
+.team_box {
+    overflow: hidden;
+}
+ @media screen and (max-width: 767px) {
+.team_header p br {
+	display: none;
+}
+.team_header p {
+	color: #5E5E5E;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 0 18%;
+}
+.out_team {
+	padding: 60px 0;
+}
+.team_header h2 {
+	font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.team_boxes {
+	padding-left: 0;
+	padding-right: 0;
+}
+}
